@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+  MODULE 9: Events - Bubbling, Capturing & Delegation Demo
+  Click the inner box and watch the console log the propagation order.
+-->
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Events Practice</title>
+  <style>
+    #outer { padding: 40px; background: #cde; }
+    #middle { padding: 40px; background: #adf; }
+    #inner { padding: 40px; background: #8cf; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <div id="outer">
+    Outer
+    <div id="middle">
+      Middle
+      <div id="inner">Click Me (Inner)</div>
+    </div>
+  </div>
+  <p>Open the browser console (F12) to see the event log.</p>
+  <script src="script.js"></script>
+</body>
+</html>
