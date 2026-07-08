@@ -1,4 +1,4 @@
-# JavaScript Internship - Code Proof
+# JavaScript Internship
 
 Practical demo code written to accompany the internship report, mapped to the
 Udemy course "JavaScript - The Complete Guide (Beginner + Advanced)". Each
